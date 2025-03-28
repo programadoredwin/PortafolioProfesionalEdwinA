@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Profesional Edwin</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Mi Portafolio Profesional</h1>
+    </header>
+    <nav>
+        <ul class="tabs">
+            <li><a href="#inicio" class="tab" data-target="inicio">Inicio</a></li>
+            <li><a href="#perfil" class="tab" data-target="perfil">Perfil</a></li>
+            <li><a href="#formacion" class="tab" data-target="formacion">Formación</a></li>
+            <li><a href="#experiencia" class="tab" data-target="experiencia">Experiencia</a></li>
+            <li><a href="#proyectos" class="tab" data-target="proyectos">Proyectos</a></li>
+            <li><a href="#contacto" class="tab" data-target="contacto">Contacto</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="inicio" class="content">
+            <h2>Inicio</h2>
+            <p>Bienvenido a mi portafolio profesional, un espacio dedicado a mostrar mi trayectoria, habilidades y objetivos en el mundo de la tecnología y la educación.</p>
+            <img src="./images/portada.jpg" alt="Portada profesional" class="imagen-portada">
+        </section>
+        <section id="perfil" class="content" style="display: none;">
+            <h2>Perfil</h2>
+            <p>Mi nombre es Edwin Alejandro Viveros. Soy estudiante del SENA en Análisis y Desarrollo de Software, ingeniero en formación de la UNAD, profesor de sistemas, monitor educativo y licenciado en formación de la Universidad del Valle.</p>
+            <p><strong>"La educación y la tecnología son las herramientas que transforman el futuro. Estoy comprometido a inspirar y guiar a los futuros líderes en tecnología."</strong></p>
+            <p>Sígueme en mis redes sociales:</p>
+            <ul class="social-links">
+                <li>
+                    <a href="https://www.tiktok.com/@edwinflow13?_t=ZS-8v0lSrFpsf9&_r=1" target="_blank">
+                        <img src="./images/tiktok-icon.png" alt="TikTok" class="icon"> TikTok
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/edwinalejandro.popoviveros?mibextid=wwXIfr" target="_blank">
+                        <img src="./images/facebook-icon.png" alt="Facebook" class="icon"> Facebook
+                    </a>
+                </li>
+            </ul>
+
+
+        </section>
+        <section id="formacion" class="content" style="display: none;">
+            <h2>Formación</h2>
+            <p>Mi formación académica abarca diversos campos en tecnología y educación:</p>
+            <ul>
+                <li>Tecnología en Análisis y Desarrollo de Software - SENA.</li>
+                <li>Ingeniería de Sistemas - UNAD (en curso).</li>
+                <li>Licenciatura en Matemáticas - Universidad del Valle.</li>
+                <li>Certificación en Desarrollo Web - SENA.</li>
+                <li>Curso de Python para Análisis de Datos - Platzi.</li>
+                <li>Seminario de Innovación Tecnológica - UNAD.</li>
+            </ul>
+
+
+
+
+        </section>
+        <section id="experiencia" class="content" style="display: none;">
+            <h2>Experiencia</h2>
+            <ul>
+                <li><strong>Desarrollador en XYZ:</strong> Desarrollé un sistema innovador de gestión educativa optimizando la experiencia del usuario.</li>
+                <li><strong>Instructor en SENA:</strong> Capacité estudiantes en desarrollo web y fundamentos de programación.</li>
+                <li><strong>Monitor Educativo:</strong> Diseñé plataformas tecnológicas para promover la interacción y el aprendizaje.</li>
+                <li><strong>Asistente de Investigación:</strong> Colaboré en proyectos educativos enfocados en innovación tecnológica.</li>
+            </ul>
+
+
+        </section>
+        <section id="proyectos" class="content" style="display: none;">
+            <h2>Proyectos Destacados</h2>
+            <p>Aquí encontrarás una selección de mis proyectos más relevantes:</p>
+            <div class="proyectos-container">
+                <div class="proyecto">
+                    <img src="./images/proyecto1.jpg" alt="Proyecto 1" class="proyecto-img">
+                    <h3>Sistema de Gestión Educativa</h3>
+                    <p>Desarrollé un sistema para la gestión de cursos y estudiantes, usando tecnologías como PHP, JavaScript y SQL.</p>
+                    <a href="#" class="proyecto-link" target="_blank">Ver más</a>
+                </div>
+                <div class="proyecto">
+                    <img src="./images/proyecto2.jpg" alt="Proyecto 2" class="proyecto-img">
+                    <h3>Plataforma de Aprendizaje</h3>
+                    <p>Colaboré en la creación de una plataforma amigable para aprendizaje en línea, centrada en la experiencia del usuario.</p>
+                    <a href="#" class="proyecto-link" target="_blank">Ver más</a>
+                </div>
+                <div class="proyecto">
+                    <img src="./images/proyecto3.jpg" alt="Proyecto 3" class="proyecto-img">
+                    <h3>Aplicación Móvil de Educación</h3>
+                    <p>Diseñé una app interactiva usando Flutter para facilitar el aprendizaje a estudiantes en áreas rurales.</p>
+                    <a href="#" class="proyecto-link" target="_blank">Ver más</a>
+                </div>
+            </div>
+
+        </section>
+        <section id="contacto" class="content" style="display: none;">
+            <h2>Contacto</h2>
+            <form action="mailto:tucorreo@example.com" method="post" enctype="text/plain">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Edwin Alejandro Viveros. Desarrollado con pasión por la tecnología y la educación.</p>
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+</html>
+<video controls style="width: 100%; max-width: 800px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);">
+    <source src="./videos/proyecto.mp4" type="video/mp4">
+    Tu navegador no soporta la reproducción de este video. Por favor, actualiza tu navegador.
+</video>
+<div class="proyecto">
+    <img src="./images/proyecto4.jpg" alt="Proyecto 4" class="proyecto-img">
+    <h3>Gestor de Tareas Colaborativo</h3>
+    <p>Desarrollé una herramienta para la gestión de tareas en equipo, con funcionalidades de tiempo real y notificaciones automáticas.</p>
+    <a href="#" class="proyecto-link" target="_blank">Ver más</a>
+</div>
+<section id="multimedia" class="content" style="display: none;">
+    <h2>Galería Multimedia</h2>
+    <p>Explora algunos de mis proyectos destacados a través de imágenes y videos interactivos.</p>
+    <div class="multimedia-container">
+        <!-- Video destacado -->
+        <video controls style="width: 100%; max-width: 800px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);">
+            <source src="./videos/proyecto.mp4" type="video/mp4">
+            Tu navegador no soporta la reproducción de este video. Por favor, actualiza tu navegador.
+        </video>
+    </div>
+</section>
+<section id="afiliados" class="content">
+    <h2>Productos y Servicios Recomendados</h2>
+    <p>Descubre herramientas tecnológicas y servicios educativos que uso y recomiendo:</p>
+    <ul>
+        <li>
+            <a href="https://www.amazon.com/tu-enlace-afiliado" target="_blank">Curso de Programación para Principiantes</a>
+        </li>
+        <li>
+            <a href="https://www.ebay.com/tu-enlace-afiliado" target="_blank">Herramientas de Desarrollo Web</a>
+        </li>
+    </ul>
+</section>
+<section id="servicios" class="content style="display: block;"">
+    <h2>Consultoría Tecnológica</h2>
+    <p>Ofrezco asesoría personalizada en desarrollo de software, matemáticas aplicadas y estrategias educativas. Reserva una sesión hoy:</p>
+    <a href="mailto:tucorreo@example.com" class="consultoria-link">Contáctame</a>
+</section>
+<link rel="stylesheet" href="./css/estilos.css">
+
